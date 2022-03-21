@@ -1,14 +1,14 @@
 # Event Starter Kit + Accessibilidade - Com NextJS
 
 ## O que eu fiz
-- [] Site base para Eventos (Input de email, página de confirmação e página de comunidade).
-- [] Tornar o site Responsivo ao Mobile (pelo menos 3 tamanhos diferentes).
-- [] Temas Claro e Escuro.
-- [] Feature nos Temas: Modo dautônico.
-- [] Adicionar um ícone de acessibilidade na lateral.
-- [] Adicionar o Hand Talk (se for de uso gratuito) como opção no ícone de acessibilidade.
-- [] Adicionar uma opção de Leitura pela voz do Google para pessoas cegas como opção no ícone de acessibilidade (se eu não estiver com preguiça).
-- [] Feature de Navegação por teclas.
+- [ ] Site base para Eventos (Input de email, página de confirmação e página de comunidade).
+- [ ] Tornar o site Responsivo ao Mobile (pelo menos 3 tamanhos diferentes).
+- [ ] Temas Claro e Escuro.
+- [ ] Feature nos Temas: Modo dautônico.
+- [ ] Adicionar um ícone de acessibilidade na lateral.
+- [ ] Adicionar o Hand Talk (se for de uso gratuito) como opção no ícone de acessibilidade.
+- [ ] Adicionar uma opção de Leitura pela voz do Google para pessoas cegas como opção no ícone de acessibilidade (se eu não estiver com preguiça).
+- [ ] Feature de Navegação por teclas.
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

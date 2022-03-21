@@ -1,0 +1,238 @@
+.container {
+  /* background-color: #000; */
+  
+}
+
+.navBar {
+  /* margin: 0 auto; */
+  margin-top: 0;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  color: #8a8f98;
+  z-index: 2;
+  background-color: #0e0e10;
+  padding: 10px;
+  padding-bottom: 11px;
+}
+
+.ImageLogo {
+  /* background-color: #702ec2; */
+  margin-top: 0.9%;
+}
+
+.navBar a {
+  justify-content: space-between;
+  margin-inline: 6px;
+  font-size: 17px;
+  font-weight: 800;
+  margin-top: 0.9%;
+}
+
+.navBar a:hover {
+  color: #FFF;
+  transition: color 0.3s ease-in;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+
+.navBar button {
+  background-color: #0e0e10;
+  color: #FFF;
+  border: 2px solid blueviolet;
+  border-radius: 6px;
+  padding: 11px;
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  margin-top: 0.4%;
+  margin-inline-start: 10%;
+  /* margin-right: -10%; */
+}
+
+.navBar button:hover {
+  background-color: blueviolet;
+  color: #FFF;
+  border: 2px solid blueviolet;
+
+  transition: color 0.3s ease-in-out;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  /* margin-right: -10%; */
+
+  cursor: pointer;
+}
+
+.navBar code {
+  font-size: 18px;
+  margin-top: 0.9%;
+}
+
+.navBar code:hover {
+  cursor:default;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 800;
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  align-self: center;
+  text-align: center;
+  overflow-wrap: break-word;
+  letter-spacing: -6px;
+  /* margin: 0 0 40px; */
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 32px;
+  max-width: 531px;
+  margin: 40px auto;
+  margin-top: -40px;
+  align-self: center;
+  text-align: center;
+  color: #8a8f98;
+}
+
+.date {
+  text-align: center;
+  color: blueviolet;
+  font-size: 27px;
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  margin-top: -10px;
+}
+
+.date .dateDetail {
+  /* color: blueviolet; */
+  color: #fff;
+}
+
+.registerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.registerBox .formRow {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+}
+
+.registerBox .formRow .formInputLabel {
+  background-color: #252729;
+
+  border: 3px solid transparent;
+  border-radius: 6px;
+  /* border-color:blueviolet; */
+  transition: border-color .2s ease,background-color .2s ease;
+  display: block;
+}
+
+.registerBox .formRow .formInputLabel .registerInput {
+  display: inline-block;
+
+  border: none;
+  width: 100%;
+  background: transparent;
+  outline: none;
+  height: 56px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  color: #fff;
+  font-family: inherit;
+}
+
+.registerBox .registerButton {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 1px solid #702ec2;
+  background: #702ec2;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  letter-spacing: -.02em;
+  outline: none;
+  font-weight: 500;
+  color: #fff;
+  transition: background-color .2s ease,color .2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.registerBox .registerButton:hover {
+  /* Quando a pessoa passar o mouse por cima tem uma animação */
+  transition: 0.2s #fff;
+}
+
+.warning {
+  display: block;
+  text-align: center;
+  /* margin-left: 30%; */
+  color: #575757;
+  font-size: 20px;
+}
+
+.warning a {
+  color: #fff;
+}
+
+.footer {
+  /* display: flex; */
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  color: #8a8f98;
+  z-index: 2;
+}
+
+.footer .copyrightText {
+  flex-direction: row;
+}
+
+.footer .footerOptions {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+  margin-top: 12px;
+
+  transition: color 3s ease-in;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 3s;
+}
+
+.footer .footerOptions a:hover {
+  color: #FFF;
+  transition: color 0.3s ease-in;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+
+.footer .footerOptions a {
+  justify-content: space-between;
+  margin-inline: 3px;
+  font-size: 13px;
+}
