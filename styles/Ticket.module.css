@@ -1,0 +1,160 @@
+/* * {
+	box-sizing: border-box;
+} */
+/* body {
+	box-sizing: border-box;
+	line-height: 1.65;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	direction: ltr;
+	font-feature-settings: "kern";
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background-color: #000;
+	padding-top: 50px;
+} */
+.ticketWrapper {
+	box-sizing: border-box;
+	line-height: 1.65;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	direction: ltr;
+	font-feature-settings: "kern";
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background-color: #000;
+	/* padding-top: 50px; */
+	width: 650px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	overflow: hidden;
+
+	glare: true;
+	max: 5;
+	max-glare: 0.16;
+	full-page-listening: true;
+}
+.ticket {
+	background-color: #000;
+	width: 650px;
+	height: 330px;
+	border: 5px double transparent;
+	border-radius: 30px;
+	background-image: linear-gradient(#000, #000),
+		linear-gradient(to right, #ec6193, #ffbc29, #53a0ec);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	position: relative;
+}
+.ticket:after {
+	position: absolute;
+	content: " ";
+	width: 72px;
+	height: 72px;
+	top: 50%;
+	right: 0;
+	transform: translate(60%, -50%);
+	border: 5px double transparent;
+	background-color: gold;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-right: 0;
+	background-image: linear-gradient(#000, #000),
+		linear-gradient(to right, #ffbc29 -300px, #53a0ec 70%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-sizing: border-box;
+	z-index: 99999;
+}
+.ticket:before {
+	position: absolute;
+	content: " ";
+	width: 72px;
+	height: 72px;
+	left: 0;
+	top: 50%;
+	transform: translate(-60%, -50%);
+	border: 5px double transparent;
+	background-color: gold;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-left: 0;
+	background-image: linear-gradient(#000, #000),
+		linear-gradient(to right, #ec6193, #ffbc29 300px);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-sizing: border-box;
+	z-index: 99999;
+}
+.ticketProfile {
+	position: absolute;
+	color: #fff;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 160px;
+	padding-top: 44px;
+	padding-bottom: 44px;
+	padding-left: 63px;
+	border-right: 1px dashed #444444;
+}
+.ticketProfileTop {
+	width: 100%;
+	height: 82px;
+	display: flex;
+	align-items: center;
+}
+.ticketProfileTopImage {
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	background: url("https://github.com/VictorDiasO.png") no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: #dedede;
+}
+.ticketProfileTopText {
+	margin-left: 15px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+}
+.ticketProfileTopTextName {
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+.ticketProfileTopTextProfile {
+	font-size: 16px;
+	color: #8a8f98;
+	display: flex;
+	align-items: center;
+}
+.ticket-profile-top-text-profile a,
+.ticket-profile-top-text-profile a:visited {
+	color: #8a8f98;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.ticketNumberWrapper {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 330px;
+}
+.ticketNumber {
+	transform: matrix(6.12323e-17, 1, -1, 6.12323e-17, -100, 6.12323e-15);
+	transform-origin: bottom right;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1;
+	text-align: center;
+	color: #fff;
+}

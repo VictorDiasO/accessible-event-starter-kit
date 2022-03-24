@@ -2,28 +2,33 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Page.module.css";
 import logo from "../public/icon-192x192.png";
+import TicketComponent from "../components/ticket";
+import { useState } from "react";
+
 // import logo from "../public/favicon.ico";
 
 export default function Page() {
+  const [email, setEmail] = useState("");
+
   return (
     <div className={styles.container}>
       <div className={styles.navBarContainer}>
       </div>
       <footer className={styles.navBar}>
-        <Image className={styles.ImageLogo} src={logo} alt="Logo" width={50} height={15} />
+        {/* <Image className={styles.ImageLogo} src={logo} alt="Logo" width={50} height={15} /> */}
 
         <Link href={""}> Live Stage </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> Vercel Stage </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> 100MS Stage </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> Schedule </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> Speakers </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> Expo </Link>
-        <code> | </code>
+        {/* <code> | </code> */}
         <Link href={""}> Jobs </Link>
 
         <button>Try Demo</button>
@@ -45,7 +50,9 @@ export default function Page() {
           <label className={styles.formInputLabel}>
             <input className={styles.registerInput}
               placeholder="Enter email to register free"
+              onChange={e => setEmail(e.target.value)}
             />
+            {console.log(email)}
           </label>
           <button className={styles.registerButton}>Register</button>
         </div>
@@ -67,6 +74,7 @@ export default function Page() {
         </div>
       </footer>
 
+      {/* <TicketComponent /> */}
     </div >
   );
 }

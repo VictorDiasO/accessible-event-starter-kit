@@ -10,6 +10,10 @@
 - [ ] Adicionar uma opção de Leitura pela voz do Google para pessoas cegas como opção no ícone de acessibilidade (se eu não estiver com preguiça).
 - [ ] Feature de Navegação por teclas.
 
+## Sobre a UI
+Não foi eu quem fiz, a UI do site foi inspirada na exemplo da [Vercel](https://demo.vercel.events/) mas não usei o código deles, apenas abri o código deste site para conferir algumas cores e espaçamentos.
+
+E o cartão colorido bonitinho foi feito usando o código no Codepen do [Eddy Wilson](https://github.com/eddyw)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
