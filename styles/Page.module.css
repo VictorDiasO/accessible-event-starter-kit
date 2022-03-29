@@ -171,7 +171,17 @@
   transition: background-color .2s ease,color .2s ease;
   display: inline-flex;
   align-items: center;
-  justify-content: center 
+  justify-content: center; 
+}
+
+.registerBox .registerButton a {
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+  letter-spacing: -.00em;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .registerBox .registerButton:hover {
@@ -180,6 +190,44 @@
   background-color: #000;
   border: 2px solid #702ec2;
   color: #702ec2;
+
+}
+
+.registerBox .registerButton a:hover {
+  /* Quando a pessoa passar o mouse por cima tem uma animação */
+  transition: 0.4s #fff ease-in-out;
+  background-color: #000;
+  /* border: 2px solid #702ec2; */
+  color: #702ec2;
+}
+
+.registerBox .registerButton2 a {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 2px solid #702ec2;
+  background: #702ec2;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  letter-spacing: -.00em;
+  /* outline: none; */
+  font-weight: 500;
+  color: #fff;
+  transition: background-color .2s ease,color .2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerBox .registerButton2 a:hover {
+  transition: 0.4s #fff ease-in-out;
+  background-color: #000;
+  color: #702ec2;
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
 }
 
 .warning {

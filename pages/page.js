@@ -3,12 +3,32 @@ import Link from "next/link";
 import styles from "../styles/Page.module.css";
 import logo from "../public/icon-192x192.png";
 import TicketComponent from "../components/ticket";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 // import logo from "../public/favicon.ico";
 
 export default function Page() {
+  const router = useRouter();
+
   const [email, setEmail] = useState("");
+  const [submited, setSubmited] = useState(false);
+
+  const submitEmail = async (userEmail) => {
+    /* save Email */
+    console.log("Email salvo: ", userEmail);
+
+    // Router.push('/finished');
+    setSubmited(true);
+    router.push('/finished', '/finished');
+
+    /*
+    const response = async () => {
+      return await fetch("/api/redirects/tofinished");
+    }
+    await response();
+    */
+  }
 
   return (
     <div className={styles.container}>
@@ -54,7 +74,18 @@ export default function Page() {
             />
             {console.log(email)}
           </label>
-          <button className={styles.registerButton}>Register</button>
+          {/* <button className={styles.registerButton} onClick={() => submitEmail(email)}>
+            Register
+          </button> */}
+
+          {/* <button className={styles.registerButton} onClick={() => submitEmail(email)}> */}
+          <div className={styles.registerButton2}>
+            <Link href="/finished">
+              Register
+            </Link>
+          </div>
+
+          {/* </button> */}
         </div>
       </form>
 

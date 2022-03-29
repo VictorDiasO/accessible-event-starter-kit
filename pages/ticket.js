@@ -19,6 +19,10 @@ export default function Ticket() {
               </div>
             </div>
           </div>
+          <div className={styles.ticketBottomInfo}>
+            <h3><code style={{ color: "#702ec2" }}>01</code> JANUARY 2022</h3>
+            <h4>100% <code style={{ color: "#702ec2" }}>ONLINE</code> & <code style={{ color: "#702ec2" }}>GRATUITO</code></h4>
+          </div>
         </div>
         <div className={styles.ticketNumberWrapper}>
           <div className={styles.ticketNumber}>№ 007391</div>

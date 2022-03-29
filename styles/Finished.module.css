@@ -1,0 +1,206 @@
+.container {
+}
+
+.navBar {
+  /* margin: 0 auto; */
+  margin-top: 0;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  color: #8a8f98;
+  z-index: 2;
+  background-color: #0e0e10;
+  padding: 10px;
+  padding-bottom: 11px;
+}
+
+.ImageLogo {
+  /* background-color: #702ec2; */
+}
+
+.navBar a {
+  justify-content: space-between;
+  margin-inline: 13px;
+  font-size: 17px;
+  font-weight: 800;
+  margin-top: 0.9%;
+}
+
+.navBar a:hover {
+  color: #FFF;
+  transition: color 0.3s ease-in;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+
+.navBar button {
+  background-color: #0e0e10;
+  color: #FFF;
+  border: 2px solid blueviolet;
+  border-radius: 6px;
+  padding: 11px;
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  margin-top: 0.4%;
+  margin-inline-start: 35%;
+  /* margin-right: -10%; */
+}
+
+.navBar button:hover {
+  background-color: blueviolet;
+  color: #FFF;
+  border: 2px solid blueviolet;
+
+  transition: color 0.3s ease-in-out;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  /* margin-right: -10%; */
+
+  cursor: pointer;
+}
+
+.navBar code {
+  font-size: 18px;
+  margin-top: 0.9%;
+}
+
+.navBar code:hover {
+  cursor:default;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  align-self: left;
+  text-align: left;
+  overflow-wrap: break-word;
+  letter-spacing: -2px;
+  /* margin: 0 0 40px; */
+  width: 50%;
+  margin-left: 5.5%;
+  white-space: pre-wrap;
+  margin-top: 24px;
+}
+
+.title2 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  align-self: left;
+  text-align: left;
+  overflow-wrap: break-word;
+  letter-spacing: -2px;
+  /* margin: 0 0 40px; */
+  width: 50%;
+  margin-left: 5.5%;
+  white-space: pre-wrap;
+  margin-top: -50px;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 531px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  align-self: left;
+  text-align: left;
+  color: #8a8f98;
+  margin-left: 5.5%;
+}
+
+.ticket {
+  margin-top: -29.5%;
+  margin-left: 52%;
+  width: 40%;
+}
+
+.generateGitCard {
+  padding: 14px;
+  border-radius: 7px;
+  border: 2px solid #702ec2;
+  background-color: #702ec2;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5%;
+  cursor: pointer;
+  align-items: center;
+}
+
+.generateGitCard .gitIcon {
+  padding: 0;
+  margin-bottom: -6px;
+}
+
+.warning {
+  margin-left: 11%;
+  color: #8a8f98;
+  font-weight: 800;
+}
+
+.goToLiveStage {
+  padding: 14px;
+  padding-inline: 34px;
+  border-radius: 7px;
+  border: 2px solid #702ec2;
+  background-color: #242424;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.footer {
+  /* display: flex; */
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  color: #8a8f98;
+  z-index: 2;
+}
+
+.footer .copyrightText {
+  flex-direction: row;
+}
+
+.footer .footerOptions {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+  margin-top: 12px;
+
+  transition: color 3s ease-in;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 3s;
+}
+
+.footer .footerOptions a:hover {
+  color: #FFF;
+  transition: color 0.3s ease-in;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+}
+
+.footer .footerOptions a {
+  justify-content: space-between;
+  margin-inline: 3px;
+  font-size: 13px;
+}

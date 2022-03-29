@@ -158,3 +158,18 @@
 	text-align: center;
 	color: #fff;
 }
+
+.ticketBottomInfo {
+	display: flex;
+}
+
+.ticketBottomInfo h3 {
+	margin-top: 31%;
+}
+
+.ticketBottomInfo h4 {
+	margin-top: 31%;
+	margin-left: 120px;
+	font-size: 19px;
+	/* #702ec2 */
+}
